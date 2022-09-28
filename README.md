@@ -8,7 +8,7 @@ El sensor HC-SR04 posee dos transductores: un emisor y un receptor piezoeléctri
 
 La distancia se puede calcular utilizando la siguiente formula:
 
-Distancia(m) = {(Tiempo del pulso ECO) * (Velocidad del sonido=340m/s)}/2
+    Distancia = ( Tiempo_medido ) * (velocidad_del_sonido) / 2
 
 ## Material necesario
 - Sensor HC-SR=$
@@ -21,6 +21,7 @@ Distancia(m) = {(Tiempo del pulso ECO) * (Velocidad del sonido=340m/s)}/2
 ## Software necesario
 - Python 3.9.x
 - Biblioteca GPIO para python
+- Programa para medir datos del sensor 
 
 ## Esquema de conexión
 Se construye el siguiente circuito entre el Raspberry pi 4, el protoboard y el sensor HC-SRO4.
@@ -29,9 +30,12 @@ Se construye el siguiente circuito entre el Raspberry pi 4, el protoboard y el s
 ## Esquema físico
 ![image](https://user-images.githubusercontent.com/72757419/192899706-f1e2d92e-3890-45ca-a3f5-b25faf223482.png)
 
-![image](https://user-images.githubusercontent.com/72757419/192899751-7a2320f1-b625-4c4b-92ff-7cc3c0fe468d.png)
 
 ## Datos de salida
 Salida en consola del script de python mostrando la salida de datos
 ![imagen](https://user-images.githubusercontent.com/72757419/192619774-3a65889a-dc3c-40dc-998f-34e2ab7be106.png)
+
+## Conclusiones
+
+Realizar esta actividad nos permitió entender el funcionamiento del sensor HC-SRO4 y aplicar la programación en python para lograr obtener los datos de distancia a partir de la señal enviada/recibidad del ultrasonido. COn ayuda del programa en python obtuvimos un archivo de datos con los valores de la distancia medida, este archivo se puede utilizar para un procesamiento posterior de los datos.    
 
