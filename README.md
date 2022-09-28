@@ -21,7 +21,8 @@ La distancia se puede calcular utilizando la siguiente formula:
 ## Software necesario
 - Python 3.9.x
 - Biblioteca GPIO para python
-- Programa para medir datos del sensor 
+- Programa para medir datos del sensor [link al programa](https://github.com/raymundosoto/Sensor-ultrasonico-de-distancia/blob/main/script_medicion_distancia.py)
+
 
 ## Esquema de conexión
 Se construye el siguiente circuito entre el Raspberry pi 4, el protoboard y el sensor HC-SRO4.
