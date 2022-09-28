@@ -24,7 +24,9 @@ Distancia(m) = {(Tiempo del pulso ECO) * (Velocidad del sonido=340m/s)}/2
 
 ## Esquema de conexión
 Se construye el siguiente circuito entre el Raspberry pi 4, el protoboard y el sensor HC-SRO4.
+![image](https://user-images.githubusercontent.com/72757419/192899998-d550ded6-f15b-4d68-85ef-00650463a791.png)
 
+## Esquema físico
 ![image](https://user-images.githubusercontent.com/72757419/192899706-f1e2d92e-3890-45ca-a3f5-b25faf223482.png)
 
 ![image](https://user-images.githubusercontent.com/72757419/192899751-7a2320f1-b625-4c4b-92ff-7cc3c0fe468d.png)
