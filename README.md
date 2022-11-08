@@ -1,5 +1,6 @@
 # Sensor-ultrasonico-de-distancia
 
+Íntroducción al usom de archivos con Python
 Este repositorio contiene el procedimiento para conectar el sensor ultrasónico de distancia HC-SRO4 a la raspberry pi 4 usando los GPIO y las bibliotecas de Python 3.9. Los datos del sensor de distancia son mostrados en la terminal de las raspberry pi y guradados en un archivo de texto.
 
 El sensor HC-SR04 es un sensor de distancia que utiliza ultrasonido para determinar la distancia de un objeto en un rango de 2 a 450 cm. Destaca por su pequeño tamaño, bajo consumo energético, buena precisión y excelente precio. El sensor HC-SR04 es el más utilizado dentro de los sensores de tipo ultrasonido, principalmente por la cantidad de información y la comunidad de desarrollo que hay en la web. De igual forma, es el más empleado en proyectos de robótica como robots laberinto o sumo y en proyectos de automatización como sistemas de medición de nivel o distancia.
